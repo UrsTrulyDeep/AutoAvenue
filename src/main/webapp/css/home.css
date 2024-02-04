@@ -1,0 +1,61 @@
+@charset "ISO-8859-1";
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    color: #333;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 5px;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Additional Styles for Customer Testimonials */
+.testimonial-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.testimonial-name {
+    font-weight: bold;
+}
+
+/* Additional Styles for Discover Urban Hitch Section */
+.feature-section {
+    margin-top: 40px;
+}
+
+/* Additional Styles for About Us, Contact Us, and Company Headquarters Sections */
+.info-section {
+    margin-top: 40px;
+}
+
+/* Additional Styles for Additional Features Section */
+.additional-features-section {
+    margin-top: 40px;
+}

@@ -1,0 +1,71 @@
+/* Resetting default margin and padding for consistent styling */
+.white{
+	background-color: #fff; 
+}
+.blue{
+	color: blue;
+}
+body, h1, h2, h3, p, form {
+    margin: 0;
+    padding: 0;
+}
+/* Setting a more neutral font family */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+}
+/* Container styling for better readability */
+.container {
+    /* max-width: 1400px; */
+    max-width: 100%;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #fff; /* Ensure a consistent background color */
+    border-radius: 8px; /* Add a subtle border-radius for modern look */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* A slight box shadow for depth */
+}
+/* Heading style with improved color */
+h2 {
+    color: #333;
+    margin-bottom: 20px; /* Add some space below headings for separation */
+}
+/* Form styling for cleaner appearance */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Label styling with added margin-bottom for separation */
+label {
+    display: block;
+    margin-bottom: 12px; /* Slightly increased margin for better separation */
+}
+/* Input field styling for consistency and better spacing */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 12px; /* Slightly increased padding for a comfortable input area */
+    margin-bottom: 16px; /* Increased margin for better spacing between fields */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+/* Button styling with improved contrast and hover effect */
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 20px; /* Increased padding for a more clickable button */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+button:hover {
+    background-color: #45a049;
+}
+
+/* Additional Styles for Consistency */
+/* Add your additional styles here */
